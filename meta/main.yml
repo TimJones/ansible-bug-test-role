@@ -1,0 +1,11 @@
+---
+galaxy_info:
+  author: Tim Jones
+  description: Base role for Ansible bug report
+  license: MIT
+  min_ansible_version: 1.9
+dependencies:
+  - name: ansible-bug-test-dependency
+    src: https://github.com/TimJones/ansible-bug-test-dependency-role.git
+    scm: git
+    dep_msg: "Hello from test-role"
